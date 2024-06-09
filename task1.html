@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML STRUCTURE AND STYLING</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+        }
+
+        header {
+            height: 150px;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            background-color: #BBA78C;
+        }
+
+        header h1 {
+            margin: auto;
+            font-size: 40px;
+            letter-spacing: 10px;
+        }
+
+        section {
+            height: 230px;
+            width: 100%;
+            display: flex;
+        }
+
+        nav {
+            height: 230px;
+            width: 25%;
+            padding: 40px;
+            background-color: #F3DBB2;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li,
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #F4C6D4;
+            height: 230px;
+            width: 75%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-size: 100%;
+            letter-spacing: 10px;
+        }
+
+        main h1 {
+            font-size: 40px;
+        }
+
+        article {
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+            background-color: #EFEAE4;
+        }
+
+        footer {
+            margin-top: 6%;
+            height: 130px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: #BBA78C;
+        }
+
+        footer h1 {
+            margin: auto;
+            font-size: 30px;
+            padding-top: 20px;
+            letter-spacing: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            < header>
+        </h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Main content</h1>
+            <article>Content1</article>
+            <article>Content2</article>
+        </main>
+    </section>
+    <footer>
+        <h1>
+            < / footer>
+        </h1>
+    </footer>
+</body>
+
+</html>
