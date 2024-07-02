@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            < header>
+        </h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="" id="link1">Link1</a></li>
+                <li><a href="#" id="link2">Link2</a></li>
+                <li><a href="#" id="link3">Link3</a></li>
+                <li><a href="#" id="link4">Link4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Brewery details</h1>
+            <article id="con1">
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+                <p id="p5"></p>
+            </article>
+        </main>
+    </section>
+
+    <div class="form">
+        <div id="message"></div>
+        <form name="myform" id="userForm" method="post">
+            <label for="fname">Email:</label><br>
+            <input type="email" required id="email" name="fname"><br>
+            <label for="fname">User name</label><br>
+            <input type="text" required id="username" name="fname"><br>
+            <label for="fname">Phone number:</label><br>
+            <input type="number" required id="number" name="fname"><br>
+            <label for="fname">Password</label><br>
+            <input type="password" required id="password" name="fname"><br>
+
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <h1>
+            < /footer>
+        </h1>
+    </footer>
+
+    <div class="dropdown1 dropdown hide">
+        <ul>
+            <li>Link a</li>
+            <li>Link b</li>
+            <li>Link c</li>
+        </ul>
+    </div>
+
+    <script defer src="script.js"></script>
+    <script>
+        const link1 = document.querySelector("#link1");
+        const link2 = document.querySelector("#link2");
+        const link3 = document.querySelector("#link3");
+        const drop1 = document.querySelector(".dropdown1");
+        // const drop = document.querySelector(".dropdown");
+
+        link1.addEventListener("click", (e) => {
+            e.preventDefault();
+            drop1.style.bottom = "720px";
+            drop1.classList.toggle('hide');
+            // drop.classList.toggle('hide');
+        })
+
+        link2.addEventListener("click", (e) => {
+            drop1.style.bottom = "670px";
+            drop1.classList.toggle('hide');
+            // drop.classList.toggle('hide');
+        })
+
+        link3.addEventListener("click", (e) => {
+            drop1.style.bottom = "630px";
+            drop1.classList.toggle('hide');
+            // drop.classList.toggle('hide');
+        })
+
+        link4.addEventListener("click", (e) => {
+            drop1.style.bottom = "600px";
+            drop1.classList.toggle('hide');
+            // drop.classList.toggle('hide');
+        })
+
+    </script>
+
+</body>
+
+</html>
