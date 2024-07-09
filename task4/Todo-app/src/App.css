@@ -1,0 +1,18 @@
+input{
+  width: 100%;
+}
+
+.kg-row{
+  margin: 5px;
+}
+.add{
+  text-align: left;
+}
+
+.right{
+  text-align: center;
+}
+
+button{
+  min-width: 80px;
+}
