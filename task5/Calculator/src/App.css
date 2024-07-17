@@ -9,8 +9,8 @@ input{
 }
 
 .container-cal{
-  margin-top: 50px;
-  left: 40%;
+  margin: auto;
+  margin-top: 20px;
   min-width: 400px;
   position: absolute;
 }
