@@ -1,0 +1,42 @@
+.all-image{
+  width:70%;
+  height:min-content;
+  margin: auto;
+}
+
+.full-image{
+  height: 480px;
+  width: 100%;
+
+}
+.full-image img{
+  height: 450px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.multiple-image{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  opacity: 1;
+}
+.notActive{
+  opacity: 0.5;
+}
+
+.multiple-image img{
+  height: 80px;
+  width: 80px;
+  padding-right: 20px;
+}
+
+
+.multiple-image img:hover{
+  opacity: 1;
+}
